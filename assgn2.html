@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HMTL Lists</h2>
+    <h3>Ordered Lists</h3>
+    <ol type="i" start="01">
+        <li>Millecent Omanga</li>
+        <li>Alvin Mwangi</li>
+        <li>Lilian Mumbi</li>
+        <li>Praise Ochieng</li>
+        <li>Lina Kinya</li>
+        <li>Catherine Mwende</li>
+    </ol>
+    <br><br>
+    <h2>HTML Images</h2>
+    <img src="https://images.pexels.com/photos/317157/pexels-photo-317157.jpeg?auto=compress&cs=tinysrgb&w=600" alt="yoga art" width="350" height="300">
+
+    <img src="yogaimg.jpeg" alt="yoga picture" width="350" height="300">
+    <br><br> 
+    <h2>HTML Tables</h2>
+    <table border="1">
+        <caption>Personal Data</caption>
+        <thead>
+         <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carmen Kloss</td>
+                <td>19th Street Nairobi</td>
+                <td>0703740294</td>
+                <td>carmen98@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Karla Delavine</td>
+            <td>29th Street Kiambu</td>
+            <td>0717765074</td>
+            <td>Karl40@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Kendal Jenner</td>
+            <td>30 Copper Square NY</td>
+            <td>0720341460</td>
+            <td>kendal97@gmail.com</td>
+         </tr>
+         <tr>
+            <td>Irina Shyk</td>
+            <td>24th Avenue NY</td>
+            <td>0703720942</td>
+            <td>rina98@gmail.com</td>
+         </tr>
+         <tr>
+            <td>Anok Yai</td>
+            <td>4oth Avenue NY</td>
+            <td>0727654097</td>
+            <td>yai20@gmail.com</td>
+         </tr>
+        </tfoot>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+                <th>Marital status</th>
+            </tr>
+        </tfoot>
+    </table>   
+    <br><br>
+    <h2>Registration Form</h2>
+    <form action="" method="">
+        <label for="full name">Full Name</label>
+        <input type="text" id="full_name" name="full name" placeholder="Enter your fullname" required minlength="3">
+        <br><br>
+        <label for="Select your Age brackect"> Age</label>
+        <select name="age" id="age">
+            <option>--select age--</option>
+            <option value="18-25">18-25</option>
+            <option value="25-30">25-30</option>
+            <option value="30-40">30-40</option>
+            <option value="40-55">40-55</option>
+        </select>
+        <br><br>
+        <label for="email" >Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required minlength="8">
+        <br><br>
+        <label for="country">Select your country</label>
+        <select id="country" name="country" required>
+            <option>--select country--</option>
+            <option value> South Africa</option>
+            <option value> Kenya</option>
+            <option value> Nigeria</option>
+            <option value> Tanzania</option>
+            <option value> Uganda</option>
+        </select>
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for female>Female</label>
+        <input type="other" id="other" name="gender" vale="other">
+        <label for other>Other</label>
+        <br><br>
+        <label for="phone">Telephone Number</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+        <br><br>
+        <label for dob>Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        <label for="interests">Interests</label>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="data analysis" name="interests" value="data analysis">
+        <label for="data analysis">Data analysis</label>
+        <input type="checkbox" id="yoga" name="interests" value="yoga">
+        <label for="yoga">Yoga</label>
+        <input type="checkbox" id="web development" name="interests" value="web development">
+        <label for="web development">web development</label>
+        <br><br>
+        <input type="submit" value="Register">
+    </form>
+    <br><br>
+</body>
+</html>
